@@ -33,6 +33,14 @@
     flex-wrap: wrap;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: gray;
+}
+
 .item-link {
     display: block;
     padding: 20px 0;
