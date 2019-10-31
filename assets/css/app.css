@@ -1,0 +1,43 @@
+.header {
+    font-family: "Italiana", serif;
+    font-size: 36px;
+    padding: 3rem;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+}
+
+.nav div {
+    margin: 0 10px;
+    position: relative;
+}
+
+.link-background::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    left: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(242, 185, 185, 0.42);
+}
+.portfolio::after {
+    background-color: rgba(242, 185, 0, 0.42);
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-link {
+    display: block;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 22px;
+    background: rgba(196, 196, 196, 0.08);
+}
