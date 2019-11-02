@@ -6,10 +6,9 @@ data.map(item => {
     child.insertAdjacentHTML(
         "afterbegin",
         `
-        <div>
-            <div><img src="/assets/img/${item.filename}" alt="" height="" /></div>
+            <img src="/assets/img/${item.filename}" alt="" height="" />
             <a class="item-link" href="${item.url}">${item.title}</a>
-        </div>`
+        `
     );
 
     container.appendChild(child);
